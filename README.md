@@ -1,56 +1,81 @@
-# -Website-Hosting-on-AWS-using-S3-CloudFront-
-🌐 Deployed a sleek static website using AWS S3 &amp; CloudFront for global delivery. A fast, secure, and serverless cloud hosting setup with HTML + CSS, ensuring lightning-speed performance, HTTPS security, and worldwide access. ☁️✨
+<h1 align="center">🌐 Website Hosting on AWS using S3 & CloudFront</h1>
 
-🚀 Project Overview
+<p align="center">
+  <b>🚀 Fast • 🔒 Secure • ☁️ Serverless</b><br>
+  <i>Static website hosted globally using AWS S3 and CloudFront</i>
+</p>
 
-This project demonstrates how to host a static website on Amazon Web Services (AWS) using:
+---
 
-Amazon S3 – to store and serve static web files (HTML, CSS).
-Amazon CloudFront – to deliver content globally with low latency.
+## 📝 Overview
+Deployed a **sleek static website** using **Amazon S3** and **CloudFront** for **global delivery**.  
+The setup ensures:
+- ⚡ **Lightning-speed performance**
+- 🔒 **HTTPS security**
+- 🌍 **Worldwide availability**
+- 💰 **Serverless cost efficiency**
 
-The result is a fast, secure, and scalable web hosting setup that ensures:
+---
 
-⚡ Lightning-speed performance through global CDN caching.
-🔒 HTTPS security using AWS Certificate Manager.
-🌍 High availability and worldwide access with serverless architecture.
-🧠 Key Learnings
+## 🧠 Key Learnings
+✅ Configured **AWS S3** for static web hosting  
+✅ Deployed a **CloudFront CDN** for optimized global access  
+✅ Implemented **HTTPS with AWS Certificate Manager (ACM)**  
+✅ Learned **serverless architecture** & **cost optimization**
 
-Deploying and configuring a static website using AWS S3.
-Integrating CloudFront for global content delivery and caching.
-Setting up HTTPS using AWS Certificate Manager (ACM).
+---
 
-Understanding serverless hosting and cost optimization in the cloud.
+## 🛠️ Tech Stack
+| Category | Tools Used |
+|-----------|-------------|
+| **Frontend** | HTML, CSS |
+| **Cloud Services** | AWS S3, AWS CloudFront, AWS Certificate Manager |
+| **Architecture** | Static Hosting + CDN (Serverless) |
 
-🛠️ Tech Stack
-Frontend: HTML, CSS
-Cloud Services: AWS S3, AWS CloudFront, AWS Certificate Manager
-⚙️ Setup Instructions
+---
 
-Follow these steps to deploy your own static website using AWS:
+## ⚙️ Deployment Steps
 
-Create an S3 Bucket
-Go to the AWS Management Console → S3 → Create Bucket.
-Enable “Static website hosting.”
+1. **Create an S3 Bucket**  
+   - Enable static website hosting  
+   - Upload your `index.html`, `style.css`, etc.
 
-Upload your website files (HTML, CSS, JS).
+2. **Set Permissions**  
+   - Update bucket policy for public read access  
+   - Enable static website endpoint
 
-Set Bucket Policy & Permissions
-Make your objects publicly readable.
-Configure correct bucket policy to allow CloudFront access.
-Create a CloudFront Distribution
-Set your S3 bucket as the origin.
-Enable HTTPS (choose “Redirect HTTP to HTTPS”).
-Attach an SSL certificate using AWS Certificate Manager (ACM).
-Update DNS (Optional)
-Use Amazon Route 53 or another DNS provider.
-Point your custom domain to the CloudFront distribution URL.
+3. **Create a CloudFront Distribution**  
+   - Origin: your S3 bucket  
+   - Viewer Protocol: Redirect HTTP → HTTPS  
+   - Attach SSL certificate via AWS ACM  
 
-Test & Verify
+4. **(Optional) Add Custom Domain**  
+   - Use **Route 53** or your DNS provider  
+   - Point your domain to CloudFront distribution  
 
-Open your CloudFront URL or domain name.
+5. **Test the Setup**  
+   - Visit your CloudFront or custom domain URL  
+   - Ensure HTTPS and fast global performance ✨  
 
-Ensure your website loads securely with HTTPS.
+---
 
-📈 Outcome
+## 📊 Outcome
+A fully functional **static website** hosted on AWS that’s:  
+✅ **Fast**, ✅ **Secure**, ✅ **Globally Available**, and ✅ **Serverless**  
 
-A modern static website hosted entirely on AWS with optimized performance, security, and reliability — demonstrating practical skills in cloud computing, web deployment, and AWS architecture.
+---
+
+## 📸 Preview (Optional)
+*(Add a screenshot or deployment link here, e.g.)*  
+🔗 [Live Demo](#) | 📂 [Repository](#)
+
+---
+
+## 👩‍💻 Author
+**Shatakshi**  
+💼 [GitHub](https://github.com/Shatakshi033)  
+🌐 Passionate about Cloud Computing, DevOps, and Scalable Web Architecture.  
+
+---
+
+⭐ *If you found this project useful, don’t forget to give it a star!* ⭐
